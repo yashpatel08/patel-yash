@@ -20,7 +20,7 @@
 
   body {
     color: white;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzrqITQdd5ZKGbiDWlKBTKjHrPLaXWoL2uMQ&usqp=CAU');
+    background-image: url('https://th.bing.com/th/id/OIP.0HiWi8kFkh5Tmm-VTh4soQHaEK?pid=ImgDet&rs=1');
     background-attachment: fixed;
     background-size: 100% 100%;
 
@@ -56,8 +56,6 @@
     color: whitesmoke;
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 8px;
-    padding: 16px;
   }
   .dp
   {
@@ -70,19 +68,40 @@
     padding: 30px 0px;
   }
 
+  
+  
+  
+  
+  
+  .big-post-text-inner, .big-post-title-inner {
+    display: none;
+}
+  .heroPost {
+    display: none;
+}
+  
+  
+  
+  
+  
+  
   .Contactform {
     text-align: center;
     color: black;
     background-color: white;
-    margin: 1px 21px;
-    padding: 2px 27px;
+   
   }
 
   .followme {
-    padding: 50px;
+    padding: 0px;
   }
 
-  
+  .footer {
+    margin-top: 100em;
+
+    padding-left: 84em;
+
+  }
 
   .facebook {
     padding: 20px;
@@ -141,7 +160,8 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
-  }
+    padding: 0px;
+}
 
   .container {
     width: 100%;
@@ -232,7 +252,7 @@
     border: 2px solid black;
     border-radius: 14px;
     padding: 3px 5px;
-    width: 235px;
+    width: 343px;
   }
   section
   {
@@ -240,7 +260,7 @@
     display: flex;
     min-height: 100vh;
     width: 100%;
-    flex-direction: column;
+    flex-direction: column ;
     align-items:center;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -251,28 +271,31 @@
 {
   order: 1;
   flex-grow: 10;
+  padding: 150px 17px;
 }
 .Experience
 {
   order: 2;
+  padding: 75px 0px;
 }
 .Skill
 {
   order: 3;
-  margin: 10px 34px;
-  padding: 90px 56px;
+  margin: 60px 34px;
+  padding: 135px 0px;
   
 }
 .contact
 {
   order: 4;
   margin: 10px 20px;
-  padding: 99px 30px;
+  padding: 10px 30px;
 }
 .DM
 {
   order: 5;
   flex-shrink: 2;
+  padding: 160px 0px;
 }
 @media (max-width:940px ) 
 {
@@ -286,8 +309,10 @@
     width: 100%;
     display: block;
     text-align: center;
+    flex-direction: column;
     transition: all 0.3s ease;
-  }  
+  } 
+
   .navbar  ul li 
   {
     margin: 40px 0px;
@@ -296,7 +321,31 @@
   {
     font-size: 20px;
   }
+
+  .toggle-button{
+    display: flex;
+  }
+
+  .navbar{
+    width: 100%;
+    display: none;
+  }
+  .toggle-button{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .navbar{
+    text-align: center;
+  }
+  .navbar li a{
+    padding: .5rem 1rem;
+  }
+  .navbar.active{
+    display: flex;
+  }
 }
+
 header
 {
   padding: 10px 10px;
@@ -312,6 +361,28 @@ header
   display: inline-block;
   padding: 5px;
 }
+
+.toggle-button{
+ position: absolute;
+ top: .75rem;
+ right: 1rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ width: 30px;
+ height: 21px;
+}
+
+.toggle-button .bar
+{
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
+
+
+
 </style>
 
 
@@ -323,7 +394,14 @@ header
   </div>
   
 <header>
+<nav class="toggle">
+  <a href="#" class="toggle-button">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
 
+  </a>
+</nav>
   <nav class="navbar">
     <ul>
       <li class="links"><a href="#Home">Home</a></li>
@@ -332,7 +410,7 @@ header
       <li class="links"><a href="#contact">Contact</a></li>
       <li class="links"><a href="#DM">DM</a></li>
       <div class="search">
-        <input type="text" name="search" id="search" placeholder="Search --> patelyash0808.blogspot.com">
+        <input type="text" name="search" id="search" placeholder="Search patelyash0808.blogspot.com">
       </div>
 
     </ul>
@@ -403,7 +481,7 @@ header
   </div>
         </section>
         <section class="contact" id="contact">
-          <div class="footer">
+          <div>
             <div class="Contactform">Contact me</div>
             <div>
               <input type="text" id="input-name" placeholder="Name">
