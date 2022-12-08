@@ -11,7 +11,7 @@
 
   body {
     color: white;
-    background-color: #1c1c1c;
+    background-color: #080808;
     background-attachment: fixed;
     background-size: 100% 100%;
 
@@ -218,8 +218,19 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    position: relative;
+    
   }
-
+  .navbar a::after{
+    
+    background: #ff004f;
+    content: '';
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+  }
   .navbar li {
     padding-top: 3px;
     float: left;
@@ -237,6 +248,7 @@
   {
     background-color: black;
     color: rgb(236, 116, 11);
+  
   }
   .navbar .icon
   {
@@ -271,7 +283,7 @@
         text-align: left;
         
     }
-
+    
     
   }
 
