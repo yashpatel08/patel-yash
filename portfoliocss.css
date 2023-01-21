@@ -104,7 +104,13 @@
 
     width: 50px;
   }
-
+  .linkedin {
+    padding: 20px;
+    color: white;
+    margin: 5px 2px;
+    background-color: #194094;
+    
+  }
   .twitter {
     padding: 20px;
     margin: 5px 2px;
