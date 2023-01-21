@@ -1,1 +1,0 @@
-# patelyash.github.io

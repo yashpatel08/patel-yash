@@ -1,4 +1,4 @@
-
+  
         function myfunction()
         {
          var x=document.getElementById("navbar");
@@ -14,3 +14,11 @@
         }
     
 
+        function myFunction() {
+          var x = document.getElementById("alllinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
