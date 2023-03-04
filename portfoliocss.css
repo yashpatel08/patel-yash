@@ -467,6 +467,10 @@ img {
     display: none;
   }
 
+  .exp{
+    width: 150px;
+  }
+  
 }
 
 .search {
@@ -523,6 +527,4 @@ img {
   transition: all 0.2s ease-in;
 }
 
-.exp{
-  width: 450px;
-}
+
