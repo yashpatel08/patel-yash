@@ -483,12 +483,17 @@ img {
   .search{
     display: none;
   }
+
   .exp{
     width: 175px;
   }
   .contact-img
   {
     display: none;
+
+  }
+  .exp{
+    width: 150px;
   }
   
 }
@@ -546,6 +551,7 @@ img {
   box-shadow: 0px 0px 30px #976efd;
   transition: all 0.2s ease-in;
 }
+
 /* .navbar
   {
     position: fixed;
