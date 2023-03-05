@@ -490,6 +490,14 @@ img {
   {
     display: none;
   }
+   .logo-img:hover
+{
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -webkit-transition: all .8s linear;
+  transition: all .8s linear;
+  
+}
   
 }
 
