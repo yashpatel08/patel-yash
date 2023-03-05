@@ -553,8 +553,8 @@ img {
   position: relative;
   height: 4em;
   padding: 0.5em 1em;
-
 }
+
 .logo-img:hover
 {
   transform: rotate(360deg);
