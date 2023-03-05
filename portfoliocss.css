@@ -493,10 +493,11 @@ img {
    .logo-img:hover
 {
   transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
+  -moz-transition: all .8s linear;
   -webkit-transition: all .8s linear;
   transition: all .8s linear;
-  
 }
   
 }
@@ -566,8 +567,10 @@ img {
 .logo-img:hover
 {
   transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
+  -moz-transition: all .8s linear;
   -webkit-transition: all .8s linear;
   transition: all .8s linear;
-  
+
 }
