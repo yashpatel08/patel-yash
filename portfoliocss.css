@@ -845,7 +845,7 @@ transition: all linear 0.35s;
   }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:550px) {
 
     .DM{
       width: 100%;
