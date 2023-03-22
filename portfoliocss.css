@@ -878,6 +878,7 @@ transition: all linear 0.35s;
     .drop-mail
     {
       flex: 3;
+      height: 100px;
     }
     .footer
     {
