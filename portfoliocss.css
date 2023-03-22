@@ -442,7 +442,6 @@ transition: all linear 0.35s;
   order: 5;
   flex-shrink: 2;
   margin: 10px 20px;
-  padding: 28px 30px;
   height: 300px;
   padding: 10px 10px;
   text-align: center;
@@ -844,4 +843,68 @@ transition: all linear 0.35s;
   {
     font-size: 25px;
   }
+}
+
+@media screen and (max-width:450px) {
+
+    .DM{
+      width: 100%;
+      padding: 10px 10px;
+      height: 60%;
+      font-size: medium;
+    }
+    #contact{
+      padding: 4px 5px;
+      margin: 0px 0px;
+    }
+    .uselink{
+      padding: 0px 9px;
+      margin: 0px 0px;
+    }
+    .sociallinks
+    {
+      padding: 0px 0px;
+      margin: 25px 0px;
+    }
+    .main-div
+    {
+      flex: 1;
+      padding: 7px 2px;
+    }
+    .sociallinks
+    {
+      flex: 2;
+    }
+    .drop-mail
+    {
+      flex: 3;
+    }
+    .footer
+    {
+      display: flex;
+
+    }
+    .contact-header
+    {
+      font-size: 15px;
+    }
+    .DM
+    {
+      height: 250px;
+      padding: 0px 0px;
+      margin: 0px 0px
+      
+    }
+    .social a{
+      height: 24px;
+      width: 14px;
+      font-size: .55em;
+    }
+
+    .footer
+    {
+      display: grid;
+      
+    }
+    
 }
