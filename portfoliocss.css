@@ -88,10 +88,14 @@ h4 {
 
 }
 
-.social a:hover{
-  background-color: #000000;
+.social a{
+  
   border-radius: 10px;
   transition: .5s linear;
+}
+.social a:hover{
+  font-size: 25px;
+  background-color: #000000;
 }
 .facebook {
   padding: 20px;
@@ -345,7 +349,7 @@ transition: all linear 0.35s;
     float: right;
     display: block;
     scroll-behavior: smooth;
-
+    
   }
 
   .contact-img {
@@ -358,6 +362,12 @@ transition: all linear 0.35s;
 @media screen and (max-width:600px) {
   .navbar.responsive {
     position: relative;
+   
+  }
+  .navbarresponsive{
+    z-index: 1;
+    position: sticky;
+    overflow: hidden;
   }
   .navbar a::after {
 
@@ -368,6 +378,7 @@ transition: all linear 0.35s;
     margin: auto;
     display: block;
     transition: 0.5s;
+   
   }
   .navbar a:active {
     background-color: black;
@@ -379,19 +390,21 @@ transition: all linear 0.35s;
     text-decoration: underline rgb(236, 116, 11);
     width: 100%;
     transition: all linear .5s ;
+
   }
 
   .navbar.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
-
+  
   }
 
   .navbar.responsive a {
     float: none;
     display: block;
     text-align: left;
+    
 
   }
 
@@ -418,6 +431,59 @@ transition: all linear 0.35s;
 
   }
 
+  .social a:hover{
+    background-color: #000000;
+    border-radius: 10px;
+    transition: .5s linear;
+  }
+  .facebook {
+    padding: 20px;
+    color: white;
+    margin: 5px 2px;
+    /* background: #3b5998; */
+   
+    width: 50px;
+  }
+  .facebook:hover{
+    color: #3b5998;
+  }
+  .linkedin {
+    padding: 20px;
+    color: white;
+    margin: 5px 2px;
+    /* background-color: #194094; */
+  
+  }
+  .linkedin:hover
+  {
+   color:  #103fa5; 
+  }
+  .twitter {
+    padding: 20px;
+    margin: 5px 2px;
+    /* background: #55ACEE; */
+    color: white;
+  }
+  .twitter:hover{
+    color: #55ACEE;;
+  }
+  .instagram {
+    padding: 20px;
+    margin: 5px 2px;
+    /* background: #E4405F; */
+    color: white;
+  }
+  .instagram:hover{
+    color: #E4405F;
+  }
+  .github {
+    padding: 20px;
+    margin: 5px 2px;
+    /* background: #000000; */
+    color: white;
+  
+  }
+  
 }
 
 .search {
@@ -881,7 +947,8 @@ transition: all linear 0.35s;
       width: 100%;
       padding: 10px 10px;
       height: 60%;
-      font-size: medium;
+      font-size: 30px;
+      
     }
     #contact{
       padding: 4px 5px;
