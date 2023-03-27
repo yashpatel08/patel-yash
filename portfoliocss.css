@@ -83,42 +83,60 @@ h4 {
 .contactform-items{
   align-items: center;
 }
+.social{
+  padding: 10px 10px;
 
+}
+
+.social a:hover{
+  background-color: #000000;
+  border-radius: 10px;
+  transition: .5s linear;
+}
 .facebook {
   padding: 20px;
   color: white;
   margin: 5px 2px;
-  background: #3b5998;
-
+  /* background: #3b5998; */
+ 
   width: 50px;
 }
-
+.facebook:hover{
+  color: #3b5998;
+}
 .linkedin {
   padding: 20px;
   color: white;
   margin: 5px 2px;
-  background-color: #194094;
+  /* background-color: #194094; */
 
 }
-
+.linkedin:hover
+{
+ color:  #103fa5; 
+}
 .twitter {
   padding: 20px;
   margin: 5px 2px;
-  background: #55ACEE;
+  /* background: #55ACEE; */
   color: white;
 }
-
+.twitter:hover{
+  color: #55ACEE;;
+}
 .instagram {
   padding: 20px;
   margin: 5px 2px;
-  background: #E4405F;
+  /* background: #E4405F; */
   color: white;
 }
-
+.instagram:hover{
+  color: #E4405F;
+}
 .github {
   padding: 20px;
   margin: 5px 2px;
-  background: #000000;
+  /* background: #000000; */
   color: white;
 
 }
@@ -671,6 +689,7 @@ transition: all linear 0.35s;
 #contact {
   color: rgb(255, 255, 255);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
 }
 
 .fullCont {
@@ -678,6 +697,8 @@ transition: all linear 0.35s;
   flex-direction: row;
   justify-content: center;
   position: relative;
+  
+
   /* max-width: 840px; */
 }
 
@@ -719,6 +740,9 @@ transition: all linear 0.35s;
   opacity: 1;
   color: white;
   padding: 5px 5px;
+
+ 
+  
 }
 
 #submit {
@@ -898,7 +922,7 @@ transition: all linear 0.35s;
     .DM
     {
       height: 250px;
-      padding: 98px 0px;
+      padding: 88px 0px;
       margin: 0px 0px
       
     }
