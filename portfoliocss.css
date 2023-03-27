@@ -80,7 +80,9 @@ h4 {
   width: 50%;
 
 } */
-
+.contactform-items{
+  align-items: center;
+}
 
 .facebook {
   padding: 20px;
@@ -378,7 +380,8 @@ transition: all linear 0.35s;
   .contact {
     order: 4;
     margin: 10px 20px;
-    padding: 28px 30px;
+    padding: 40px 30px;
+
   }
 
   .search {
@@ -641,6 +644,7 @@ transition: all linear 0.35s;
     color: whitesmoke;
 
   }
+ 
 }
 
 
@@ -650,7 +654,7 @@ transition: all linear 0.35s;
   order: 4;
   flex-shrink: 2;
   margin: 30px 30px;
-  padding: 10px 30px;
+  padding: 100px 30px;
 }
 .contact-header {
   text-align: center;
@@ -661,26 +665,19 @@ transition: all linear 0.35s;
   font-size: xx-large;
   background-color: rgb(100, 14, 134);
   border-radius: 3px;
+ height: 30px;
 }
 
 #contact {
   color: rgb(255, 255, 255);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  /* padding: 10px 10px; */
-
-  border-radius: 5px;
-
 }
 
 .fullCont {
   /* display: inline-block; */
   flex-direction: row;
   justify-content: center;
-  margin: 0 auto;
-  padding: 0px;
   position: relative;
-  
-
   /* max-width: 840px; */
 }
 
@@ -721,7 +718,7 @@ transition: all linear 0.35s;
   background-color: rgb(22, 21, 21);
   opacity: 1;
   color: white;
-
+  padding: 5px 5px;
 }
 
 #submit {
@@ -816,10 +813,14 @@ transition: all linear 0.35s;
   margin: 1px 1px;
   border: 2px solid white;
 }
+
 .Contactform
 {
-  padding: 65px 60px;
-  margin: 10px 10px;
+  display: block;
+  padding: auto;
+  margin: auto;  
+  align-items: center;
+  width: 20%;
 }
 @media screen and (max-width:600px) {
 
@@ -829,8 +830,8 @@ transition: all linear 0.35s;
   }
 
   #contact {
-    padding: 4px 5px;
-    margin: 5px 60px;
+    padding: 4px px;
+    margin: 50px 60px;
   }
 
   .contact-list {
@@ -843,9 +844,14 @@ transition: all linear 0.35s;
   {
     font-size: 25px;
   }
+  .Contactform{
+    width: 38%;
+    padding: 100px 10px;
+  }
+
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:600px) {
 
     .DM{
       width: 100%;
@@ -878,6 +884,7 @@ transition: all linear 0.35s;
     .drop-mail
     {
       flex: 3;
+      height: 100px;
     }
     .footer
     {
@@ -891,7 +898,7 @@ transition: all linear 0.35s;
     .DM
     {
       height: 250px;
-      padding: 0px 0px;
+      padding: 58px 0px;
       margin: 0px 0px
       
     }
