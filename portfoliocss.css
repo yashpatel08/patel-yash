@@ -919,7 +919,9 @@ transition: all linear 0.35s;
   padding: auto;
   margin: auto;  
   align-items: center;
-  width: 20%;
+
+  width: 48%;
+  padding: 100px 10px;
 }
 @media screen and (max-width:600px) {
 
@@ -944,8 +946,7 @@ transition: all linear 0.35s;
     font-size: 25px;
   }
   .Contactform{
-    width: 48%;
-    padding: 100px 10px;
+    
   }
 
 }
