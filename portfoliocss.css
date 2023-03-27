@@ -483,6 +483,10 @@ transition: all linear 0.35s;
     color: white;
   
   }
+  .Skill 
+  {
+    width: 40%;
+  }
   
 }
 
@@ -522,6 +526,7 @@ transition: all linear 0.35s;
   margin-right: auto;
   
 }
+
 
 /* .contact
 {
@@ -939,7 +944,7 @@ transition: all linear 0.35s;
     font-size: 25px;
   }
   .Contactform{
-    width: 38%;
+    width: 41%;
     padding: 100px 10px;
   }
 
