@@ -516,8 +516,12 @@ transition: all linear 0.35s;
   margin: 10px 34px;
   /* padding: 30px 56px; */
   padding: 60px 30px;
+  width: 38%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
-
 
 /* .contact
 {
