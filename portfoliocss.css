@@ -920,7 +920,7 @@ transition: all linear 0.35s;
   margin: auto;  
   align-items: center;
 
-  width: 48%;
+  width: 20%;
   padding: 100px 10px;
 }
 @media screen and (max-width:600px) {
