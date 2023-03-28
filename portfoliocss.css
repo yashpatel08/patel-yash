@@ -435,6 +435,8 @@ transition: all linear 0.35s;
     background-color: #000000;
     border-radius: 10px;
     transition: .5s linear;
+
+   font-size: 20px;
   }
   .facebook {
     padding: 20px;
