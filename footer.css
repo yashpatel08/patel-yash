@@ -1,0 +1,166 @@
+
+/* footer css */
+
+.drop-mail {
+    border: 3px whitesmoke;
+    border-style: solid;
+    height: 40%;
+    padding: 5px 5px;
+    margin: 15px 10px;
+  
+  }
+  
+  .mail {
+    text-decoration: none;
+    color: rgb(11, 120, 156);
+  }
+  
+  .fullsection {
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: -10px;
+    margin-left: -10px;
+    width: 100%;
+    margin-right: 40px;
+  }
+  
+  .footer {
+    list-style-type: none;
+    padding: auto;
+    margin: auto;
+    background-color: black;
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+  }
+  
+  .footer li {
+    opacity: 60%;
+    cursor: pointer;
+  }
+  
+  .footer li:hover {
+    opacity: 100%;
+  }
+  
+  .alllinks li {
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    padding: 5px 5px;
+  }
+  
+  .uselink {
+    padding: 0px 30px;
+  }
+  
+  .main-div {
+    padding: 10px 10px;
+    margin: 15px 20px;
+  }
+  
+  .main-div li {
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 5px;
+  }
+  
+  .uselink li {
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 0px;
+    opacity: 60%;
+  }
+  
+  .sociallinks {
+    padding: 10px 0px;
+    margin: 15px 2px;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .socialmedia {
+    padding-left: 45px;
+  }
+  
+  .socialmedia li a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  
+  .sociallinks li {
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 0px;
+    opacity: 60%;
+    color: aliceblue;
+  }
+  
+  .sociallinks li a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  
+  .yp {
+    color: aqua;
+  }
+  
+  .main-div li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  @media screen and (max-width:600px) {
+    .uselink {
+      padding: 2px 14px;
+    }
+  
+    .sociallinks li {
+      padding: 5px 3px;
+    }
+  
+    .socialmedia {
+      width: 20px;
+    }
+  
+    .sociallinks li {
+      padding: 0px 0px;
+      margin: 15px 0px;
+      left: 0;
+  
+    }
+  
+    .fullsection {
+      margin-top: -10px;
+      margin-left: -10px;
+      width: 100%;
+      overflow: initial;
+  
+    }
+  
+    .footer {
+      display: flex;
+      justify-content: flex-start;
+  
+    }
+  
+    .main-div {
+      padding: 0px 0px;
+      margin: 29px 0px;
+    }
+  
+    .sociallinks li a {
+      text-decoration: none;
+      color: whitesmoke;
+  
+    }
+   
+  }
+  

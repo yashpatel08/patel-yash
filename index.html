@@ -11,36 +11,51 @@
   <link rel="icon" href="YP-Logo(8).png" type="image/x-icon">
 </head>
 <link rel="stylesheet" href="portfoliocss.css">
+<link rel="stylesheet" href="contact.css">
+<link rel="stylesheet" href="footer.css">
+
 <script src="portfolio.js"></script>
 <script src="https://kit.fontawesome.com/65bdb8b88e.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
 <body>
 
+  <header>
+    <div class="resnav">
+      <div class="navbar" id="navbar">
+        <div class="sticky">
+          <nav class="navbarr" id="Navbar">
+            <img class="logo-img" src="YP-Logo(8).png">
+            <div class="alllinks" id="Alllinks">
+              <ul>
+                <li class="menu-list"><a href="#Home"><i class="fa-solid fa-house"> Home</i></a></li>
+                <li class="menu-list"><a href="#Experience"><i class="fa-solid fa-briefcase"> Experience</i></a></li>
+                <li class="menu-list"><a href="#Skill"><i class="fa-solid fa-code"> Skills</i></a></li>
+                <li class="menu-list"><a href="#contact"><i class="fa-solid fa-envelope"> Contact</i></a></li>
+                <li class="menu-list"><a href="#DM"><i class="fa-brands fa-telegram"> DM</i></a></li>
+              </ul>
+            </div>
 
+            <div class="search">
+              <input type="text" name="search" id="search" placeholder="Search --- patelyash.github.io">
+            </div>
 
-  <div class="navbar" id="navbar">
-    <div class="sticky">
-      <nav class="navbarr" id="Navbar">
-        <img class="logo-img" src="YP-Logo(8).png">
-        <div class="alllinks" id="Alllinks">
-          <a href="#Home" class="responsivenav"><i class="fa-solid fa-house"> Home</i></a>
-          <a href="#Experience" class="responsivenav"><i class="fa-solid fa-briefcase"> Experience</i></a>
-          <a href="#Skill" class="responsivenav"><i class="fa-solid fa-code"> Skills</i></a>
-          <a href="#contact" class="responsivenav"><i class="fa-solid fa-envelope"> Contact</i></a>
-          <a href="#DM" class="responsivenav"><i class="fa-brands fa-telegram"> DM</i></a>
+          </nav>
         </div>
+      </div>
+      <div class="toggle_btn" id="btn" onclick="changeClass()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
     </div>
-    <a href="javascript:void(0);" class="icon" onclick="myfunction()">
-      <i class="fa fa-bars"></i></a>
-    <div class="search">
-      <input type="text" name="search" id="search" placeholder="Search --- patelyash.github.io">
+
+    <div class="toggle_container" id="toggle">
+      <li><a class="toggle-items" href="#Home">Home</a></li>
+      <li><a class="toggle-items" href="#Experience">Experience</a></li>
+      <li><a class="toggle-items" href="#Skill">Skills</a></li>
+      <li><a class="toggle-items" href="#contact">Contact</a></li>
+      <li><a class="toggle-items" href="#DM">DM</a></li>
     </div>
-
-    </nav>
-  </div>
-
-
+  </header>
 
   <div class="content">
 
@@ -54,12 +69,14 @@
       </div>
       <h2>
         <center>Hey Folks! my name is yash.A 19 year old student and i pursuing the degree of b.tech in information
-          technology at government engineering college bhavnagar<br>
-          intrested for doing future projects related to html,css,java,c.</center>
+          technology with a growing interest in web development.<br>
+          and intrested for doing future projects related to html,css,java,c. As a beginner, I am eager to learn and
+          grow
+          in these fields and I hope to use this platform to document my progress and share my experiences.</center>
       </h2>
       <br>
       <h4>
-        <center> I am new to community so I prefer to keep learning,continue challenging myself,and do interesting
+        <center> I prefer to keep learning,continue challenging myself,and do interesting
           things.<br> I am passionate about building excellent web and mobile apps that improves the lives of people
           around me.</center>
       </h4>
@@ -80,6 +97,9 @@
           I spend my most of time for solving problems and i developed my skills by learning new things and i also do
           open source contributions on github . my goal as
           developer is to write less code more efficiently by using different language
+          <br>
+          Whether you are an experienced developer or a fellow beginner, I would love to hear from you and learn from
+          your insights and expertise. Let's embark on this exciting journey of discovery and growth together.
         </h2>
       </center>
 
@@ -172,7 +192,7 @@
         <ion-icon name="logo-twitter" />
       </a>
       </a>
-      <a class="github" href="https://github.com/yashpatel08"  target="_blank">
+      <a class="github" href="https://github.com/yashpatel08" target="_blank">
         <ion-icon name="logo-github" />
       </a>
       <a class='linkedin' href='https://www.linkedin.com/in/yash-patel-ab2740225/' target='_blank'>

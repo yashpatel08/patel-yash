@@ -1,0 +1,276 @@
+
+
+/* contact form css */
+.contact
+{
+  order: 4;
+  flex-shrink: 2;
+  margin: 30px 30px;
+  padding: 100px 30px;
+}
+.contact-header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 0;
+  letter-spacing: 5px;
+  width: 250px;
+  font-size: xx-large;
+  background-color: rgb(100, 14, 134);
+  border-radius: 3px;
+ height: 30px;
+}
+
+#contact {
+  color: rgb(255, 255, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+.fullCont {
+  /* display: inline-block; */
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  
+
+  /* max-width: 840px; */
+}
+
+/* #contact {
+  float: right;
+  width: 100%;
+
+} */
+
+#email {
+  text-decoration: none;
+  color: white;
+}
+
+.contact-item:hover {
+  text-decoration: none;
+  border-color: #976efd;
+}
+
+.contact-item::before {
+  text-decoration: none;
+}
+
+.contact-item::after {
+  border-color: rgb(68, 135, 157);
+  text-decoration: none;
+}
+
+.contact-item:hover::after {
+  border-color: rgb(49, 168, 189);
+  text-decoration: none;
+}
+
+
+.contact-item {
+  border-radius: 4px;
+  max-width: 400px;
+  background-color: rgb(22, 21, 21);
+  opacity: 1;
+  color: white;
+  padding: 5px 5px;
+
+ 
+  
+}
+
+#submit {
+  text-decoration: none;
+  background-color: rgb(58, 91, 141);
+  padding: 3px 10px;
+  margin: 15px 35px;
+  height: 35px;
+  border-radius: 6px;
+  background-color: transparent;
+}
+
+#submit:hover {
+  background-color: #2196F3;
+  transition: .6s linear;
+}
+
+.send {
+  overflow: hidden;
+  text-decoration: none;
+  margin: 4px 4px;
+  height: 25px;
+
+}
+
+.fa-fa-paper-plane::before {
+  display: none;
+}
+
+.fa-fa-paper-plane:hover {
+  display: inline;
+}
+
+
+.contact-list {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+
+}
+
+.send {
+  color: white;
+  background-color: transparent;
+}
+
+
+
+#input-name {
+  color: white;
+
+  background-color: transparent;
+  /* border-radius: 6px; */
+  width: 200px;
+  border: 2px solid white;
+  margin: 1px 1px;
+  height: 25px;
+}
+
+#input-email {
+  background-color: transparent;
+
+  border-radius: 6px;
+  width: 200px;
+  color: white;
+  margin: 1px 1px;
+  height: 25px;
+  border: 2px solid white;
+}
+
+#input-subject {
+  background-color: transparent;
+
+  border-radius: 6px;
+  width: 200px;
+  height: 30px;
+  color: white;
+  margin: 1px 1px;
+  height: 25px;
+  border: 2px solid white;
+}
+
+#input-message {
+  background-color: transparent;
+
+  border-radius: 6px;
+  width: 250px;
+  height: 50px;
+  overflow: hidden;
+  color: white;
+  margin: 1px 1px;
+  border: 2px solid white;
+}
+
+.Contactform
+{
+  display: block;
+  padding: auto;
+  margin: auto;  
+  align-items: center;
+  width: 29%;
+  padding: 100px 10px;
+}
+@media screen and (max-width:600px) {
+
+  .contact-list li a {
+    padding: 0 auto;
+    margin: 0 auto;
+  }
+
+  #contact {
+    padding: 4px px;
+    margin: 50px 60px;
+  }
+
+  .contact-list {
+    display: none;
+  }
+  #submit{
+    height: 40px;
+  }
+  .contact-header
+  {
+    font-size: 25px;
+  }
+  .Contactform{
+    width: 62%;
+  }
+
+}
+
+@media screen and (max-width:600px) {
+
+    .DM{
+      width: 100%;
+      padding: 10px 10px;
+      height: 60%;
+      font-size: 30px;
+      
+    }
+    #contact{
+      padding: 4px 5px;
+      margin: 0px 0px;
+    }
+    .uselink{
+      padding: 0px 9px;
+      margin: 0px 0px;
+    }
+    .sociallinks
+    {
+      padding: 0px 0px;
+      margin: 25px 0px;
+    }
+    .main-div
+    {
+      flex: 1;
+      padding: 7px 2px;
+    }
+    .sociallinks
+    {
+      flex: 2;
+    }
+    .drop-mail
+    {
+      flex: 3;
+      height: 100px;
+    }
+    .footer
+    {
+      display: flex;
+
+    }
+    .contact-header
+    {
+      font-size: 15px;
+    }
+    .DM
+    {
+      height: 250px;
+      padding: 88px 0px;
+      margin: 0px 0px
+      
+    }
+    .social a{
+      height: 24px;
+      width: 14px;
+      font-size: .55em;
+    }
+
+    .footer
+    {
+      display: grid;
+      
+    }
+    
+}
