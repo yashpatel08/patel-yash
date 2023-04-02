@@ -437,6 +437,9 @@ img {
   .navbarr {
     display: none;
   }
+  .sticky{
+  display: none;
+  }
 
   .resnav .toggle_btn {
     display: block;
