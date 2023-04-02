@@ -163,7 +163,7 @@
     }
    
   }
-   @media screen and (max-width:570px) {
+   @media screen and (max-width:620px) {
     .footer
     {
       display: grid;
