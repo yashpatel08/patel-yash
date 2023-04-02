@@ -161,6 +161,29 @@
       color: whitesmoke;
   
     }
+    .footer
+    {
+      display: grid;
+      
+    }
+    .main-div
+    {
+      flex: 1;
+      padding: 7px 2px;
+    }
+    .sociallinks
+    {
+      flex: 2;
+    }
+    .drop-mail
+    {
+      flex: 3;
+      height: 100px;
+    }
+    .footer
+    {
+      display: flex;
+    }
    
   }
   
