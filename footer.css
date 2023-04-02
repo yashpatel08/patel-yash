@@ -161,6 +161,9 @@
       color: whitesmoke;
   
     }
+   
+  }
+   @media screen and (max-width:570px) {
     .footer
     {
       display: grid;
@@ -184,6 +187,4 @@
     {
       display: flex;
     }
-   
   }
-  
