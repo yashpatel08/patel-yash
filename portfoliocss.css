@@ -214,6 +214,18 @@ img {
   border-radius: 30px;
 }
 
+.javascript{
+  width: 74%;
+  background-color: rgb(137, 137, 50);
+  border-radius: 30px;
+}
+
+.react-js{
+  width: 55%;
+  background-color: rgb(32, 117, 173);
+  border-radius: 30px;
+}
+
 .java {
   width: 75%;
   background-color: #f44336;
@@ -436,9 +448,6 @@ img {
 @media screen and (max-width:600px) {
   .navbarr {
     display: none;
-  }
-  .sticky{
-  display: none;
   }
 
   .resnav .toggle_btn {
