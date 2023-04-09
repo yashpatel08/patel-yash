@@ -8,14 +8,6 @@ function changeClass() {
       }
    }
 
-// function classToggle(){
-//    const nav=document.querySelectorAll('.toggle_container');
-
-//    nav.forEach(nav => nav.classList.toggle('.toggle-items'));
-
-// }
-
-// document.querySelector('.toggle_btn').addEventListener('click',classToggle); 
 
 
 // const toggleBtn = document.querySelector('.toggle_btn');
