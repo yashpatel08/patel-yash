@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Patel Yash</title>
   <!-- add icon link -->
-  <link rel="icon" href="YP-Logo(8).png" type="image/x-icon">
+  <link rel="icon" href="My project.png" type="image/x-icon">
+  <link rel="manifest" href="/site.webmanifest" />  
 </head>
 <link rel="stylesheet" href="portfoliocss.css">
 <link rel="stylesheet" href="contact.css">
@@ -81,9 +82,7 @@
           around me.</center>
       </h4>
 
-      <center><img class="dp"
-          src="DP.png"
-          width="500" height="300"></center>
+      <center><img class="dp" src="DP.png" width="500" height="300"></center>
 
     </section>
     <section class="Experience" id="Experience">
@@ -156,27 +155,37 @@
         <a class="contact-header"> Contact Form </a>
         <section id="contact">
           <div class="contactform-items">
-            <br>
-            <input type="text" id="input-name" class="contact-item" placeholder="NAME">
-            <br>
+            <form>
+              <ul>
+                <br>
+                <li>
+                  <input type="text" id="input-name" class="contact-item" placeholder="Name">
+                </li>
 
-            <br>
+                <br>
 
-            <input type="email" id="input-email" class="contact-item" placeholder="EMAIL">
-            <br>
+                <br>
 
-            <br>
-            <input type="text" id="input-subject" class="contact-item" placeholder="SUBJECT">
-            <br>
+                <li><input type="email" id="input-email" class="contact-item" placeholder="Email"></li>
+                <br>
 
-            <br>
-            <textarea type="text" id="input-message" class="contact-item" placeholder="MESSAGE"></textarea>
-            <br>
-            <button id="submit" type="submit" value="SEND">
-              <a href="mailto:pateljyash0808@gmail.com" class="send">
-                <i class="fa fa-paper-plane" id="plane"></i><span class="send-text"> SEND</span>
-              </a>
-            </button>
+                <br>
+                <li><input type="text" id="input-subject" class="contact-item" placeholder="Subject"></li>
+                <br>
+
+                <br>
+                <textarea type="text" id="input-message" class="contact-item" placeholder="Message"></textarea>
+                <br>
+                <br>
+                <button id="submit" type="submit" value="SEND">
+                  <a href="mailto:pateljyash0808@gmail.com" class="send">
+                    <i class="fa fa-paper-plane" id="plane"></i><span class="send-text"> SEND</span>
+                  </a>
+                </button>
+
+              </ul>
+            </form>
+          </div>
         </section>
       </div>
     </div>
