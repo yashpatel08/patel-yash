@@ -1,11 +1,11 @@
 body {
-  background-color: #011d42e7;
+  background-color: #011d42e7 ;
   background-attachment: fixed;
   background-size: 100% 100%;
   margin: 0;
   padding: 0;
 }
-
+/* 1d1d1d*/
 h1 {
 
   background-color: rgb(100, 14, 134);
@@ -400,7 +400,7 @@ img {
   align-items: center;
   justify-content: center;
   transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-
+ 
 }
 .toggle_container-open li a:hover{
   background-color: rgb(78, 125, 139);
@@ -408,6 +408,7 @@ img {
   text-decoration: underline rgb(236, 116, 11);
   transition: all linear .5s;
   border-radius: 4px;
+  opacity: 100%;
 }
 .toggle_container-open {
   height: 320px;
