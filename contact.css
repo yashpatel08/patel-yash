@@ -190,7 +190,9 @@ input:focus::placeholder {
   transition: all 0.2s ease-in-out;
 
 }
-
+.contact-item{
+    list-style-type:none;
+}
 textarea:focus::placeholder {
   transform: translateY(-9px);
   transition: all 0.2s ease-in-out;
