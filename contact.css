@@ -181,13 +181,85 @@
   width: 29%;
   padding: 100px 10px;
 }
+.contactform-items li{
+  list-style-type:none;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+input:focus::placeholder {
+  transform: translateY(-12px);
+  transition: all 0.2s ease-in-out;
+
+}
+
+textarea:focus::placeholder {
+  transform: translateY(-9px);
+  transition: all 0.2s ease-in-out;
+  
+}
+::placeholder , textarea{
+  position: relative;
+  color: white;
+  transition: 0.2s ease-out;
+  height: auto;
+}
+.contactform-items ul
+{
+ padding: 0;
+}
 @media screen and (max-width:600px) {
 
   .contact-list li a {
     padding: 0 auto;
     margin: 0 auto;
+    position: relative;
   }
 
+  .contactform-items li{
+    list-style-type:none;
+    position: relative;
+  }
+input:focus::placeholder {
+  transform: translateY(-15px);
+  transition: all 0.2s ease-in-out;
+}
+
+textarea:focus::placeholder {
+  transform: translateY(-12px);
+  transition: all 0.2s ease-in-out;
+ 
+}
+  ::placeholder , textarea{
+    position: relative;
+    color: white;
+    transition: 0.2s ease-out;
+    height: auto;
+  }
+  
+  /* input:hover ::placeholder {
+    top: -100px; 
+    transform: translateY(100px);
+  } */
+  textarea:hover ::placeholder {
+    top: -10px; /* adjust the value as needed */
+
+  }
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  } 
+ 
+  .contactform-items{
+    position: relative;
+    padding: 0px;
+  }
+  .contact-item{
+    padding: 10px;
+  }
+  .contact-item:focus + .placeholder{
+    top: -10px;
+    padding: 0px 3px;
+    color: aliceblue;
+  }
   #contact {
     padding: 4px px;
     margin: 50px 60px;
@@ -221,6 +293,11 @@
     #contact{
       padding: 4px 5px;
       margin: 0px 0px;
+      
+    }
+    #contact ul{
+      margin:0;
+      padding: 0;
     }
     .uselink{
       padding: 0px 9px;
@@ -253,6 +330,8 @@
     .contact-header
     {
       font-size: 15px;
+      margin: 8px;
+      padding: 8px;
     }
     .DM
     {
@@ -274,3 +353,4 @@
     }
     
 }
+
